@@ -1,0 +1,16 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Focused State -->
+    <item android:state_focused="true">
+        <shape>
+            <solid android:color="@android:color/transparent" />
+            <stroke android:width="8dp" android:color="#FF0000" /> <!-- Red border for focus -->
+        </shape>
+    </item>
+    <!-- Default State -->
+    <item>
+        <shape>
+            <solid android:color="@android:color/transparent" />
+            <!-- Optionally, define a border for the default state -->
+        </shape>
+    </item>
+</selector>

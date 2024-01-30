@@ -1,0 +1,9 @@
+<!-- fade_out.xml -->
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true">
+    <alpha
+        android:fromAlpha="1"
+        android:toAlpha="0"
+        android:duration="250"
+        android:startOffset="100" />
+</set>
